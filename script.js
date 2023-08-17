@@ -40,19 +40,19 @@ const handleEqual = function () {
 
   switch (action) {
     case '+':
-      currentCalcEl.textContent = 
+      currentCalcEl.textContent = '';
       break;
     case '-':
-      currentCalcEl.textContent = 
+      currentCalcEl.textContent = '';
       break;
     case 'X':
-      currentCalcEl.textContent = 
+      currentCalcEl.textContent = '';
       break;
     case '÷':
-      currentCalcEl.textContent = 
+      currentCalcEl.textContent = '';
       break;
     case '%':
-      currentCalcEl.textContent = 
+      currentCalcEl.textContent = '';
   }
 };
 
