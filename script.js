@@ -40,19 +40,19 @@ const handleEqual = function () {
 
   switch (action) {
     case '+':
-      currentCalcEl.textContent = Number(calc1) + Number(calc2);
+      currentCalcEl.textContent = 
       break;
     case '-':
-      currentCalcEl.textContent = Number(calc1) - Number(calc2);
+      currentCalcEl.textContent = 
       break;
     case 'X':
-      currentCalcEl.textContent = Number(calc1) * Number(calc2);
+      currentCalcEl.textContent = 
       break;
     case '÷':
-      currentCalcEl.textContent = Number(calc1) / Number(calc2);
+      currentCalcEl.textContent = 
       break;
     case '%':
-      currentCalcEl.textContent = Number(calc1) % Number(calc2);
+      currentCalcEl.textContent = 
   }
 };
 
